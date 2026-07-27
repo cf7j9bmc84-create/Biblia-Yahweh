@@ -16,22 +16,26 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.tunombre.app"
+      "bundleIdentifier": "com.poramoralpadre.biblianombres"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.tunombre.app"
+      "package": "com.poramoralpadre.biblianombres"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "owner": "poramoralpadre",
     "extra": {
       "eas": {
-        "projectId": "4314e324-0ffa-42ff-b014-91af870532d6"
+        "projectId": "74c0e89a-89e8-45dd-8b74-1a1984683015"
       }
+    },
+    "cli": {
+      "appVersionSource": "remote"
     }
   }
 }
