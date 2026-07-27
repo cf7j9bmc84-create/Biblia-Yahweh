@@ -10,11 +10,7 @@
       "bundleIdentifier": "com.tubiblia.yahweh"
     },
     "android": {
-      "package": "com.tubiblia.yahweh",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#1a1a2e"
-      }
+      "package": "com.tubiblia.yahweh"
     }
   }
 }
