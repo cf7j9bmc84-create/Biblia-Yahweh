@@ -1,32 +1,18 @@
 {
-  "expo": {
-    "name": "La Biblia de Yahweh",
-    "slug": "biblia-yahweh",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0a0a1a"
+  "cli": {
+    "version": ">= 3.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.tubiblia.yahweh"
+    "preview": {
+      "distribution": "internal"
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0a0a1a"
-      },
-      "package": "com.tubiblia.yahweh"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "production": {}
+  },
+  "submit": {
+    "production": {}
   }
 }
