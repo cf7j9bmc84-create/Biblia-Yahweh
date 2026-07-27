@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "owner": "labibliadeyahweh",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.tubiblia.yahweh"
