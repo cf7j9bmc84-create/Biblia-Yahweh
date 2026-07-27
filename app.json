@@ -1,21 +1,36 @@
 {
   "expo": {
-    "name": "La Biblia de Yahweh",
-    "slug": "poramoralpadrecelestial",
+    "name": "La biblia de yahweh - Nombres en hebreo",
+    "slug": "la-biblia-de-yahweh-nombres-en-hebreo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "dark",
-    "owner": "labibliadeyahweh",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.tubiblia.yahweh"
+      "bundleIdentifier": "com.tunombre.app"
     },
     "android": {
-      "package": "com.tubiblia.yahweh"
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tunombre.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "9b4b4e5d-eef3-4c1b-9a95-694dc70163d9"
+        "projectId": "4314e324-0ffa-42ff-b014-91af870532d6"
       }
     }
   }
