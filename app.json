@@ -15,29 +15,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.poramoralpadre.biblianombres"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.poramoralpadre.biblianombres"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "owner": "poramoralpadre",
     "extra": {
       "eas": {
-        "projectId": "9b4b4e5d-eef3-4c1b-9a95-694dc70163d9
-      
-        "
+        "projectId": "9b4b4e5d-eef3-4c1b-9a95-694dc70163d9"
       }
-    },
-    "cli": {
-      "appVersionSource": "remote"
     }
   }
 }
