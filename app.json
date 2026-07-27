@@ -12,6 +12,11 @@
     },
     "android": {
       "package": "com.tubiblia.yahweh"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b4163f0e-78a5-43d2-a28d-d79b12096394"
+      }
     }
   }
 }
