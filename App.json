@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "La Biblia de Yahweh",
+    "slug": "biblia-yahweh",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tubiblia.yahweh"
+    }
+  }
+}
